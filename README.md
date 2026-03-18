@@ -15,7 +15,7 @@ The app predicts spray drift deposition at various downwind distances under user
 
 ### Prerequisites
 
-R â‰¥ 4.3 and the following packages:
+R ≥ 4.3 and the following packages:
 
 ```r
 install.packages(c(
@@ -31,7 +31,7 @@ install.packages(c(
 The fitted model objects (~470 MB total) are hosted as a GitHub Release asset and are **not included in the repository**. They are downloaded automatically on first run, or you can download them manually:
 
 ```r
-# Automatic: just run the app â€” it will prompt to download
+# Automatic: just run the app - it will prompt to download
 shiny::runApp()
 
 # Manual: download from the latest GitHub Release
