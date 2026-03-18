@@ -1,0 +1,14 @@
+Group,Comparison,Trial,Comments
+1,BoomHeight,FR_1_008,
+1,BoomHeight,FR_1_017,
+2,WBD,BE_1_181,
+2,WBD,BE_1_185,
+2.1,WBD+Wind Speed,BE_1_004,
+2.1,WBD+Wind Speed,BE_1_018,
+3,Wind Speed,NL_1_660,"Bare Ground, 24 m"
+3,Wind Speed,NL_1_665,"Bare Ground, 24 m"
+3,Wind Speed,DE_4_006,"Fallow, 20 m"
+4,Drop Spectra,BE_1_062,
+4,Drop Spectra,BE_1_066,
+5,Tractor Speed,BE_1_071,
+5,Tractor Speed,BE_1_081,

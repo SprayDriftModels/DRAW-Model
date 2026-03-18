@@ -1,0 +1,13 @@
+# Large model files — hosted via GitHub Releases
+program/data/fit.STD.NoAngle.addTemp.rda
+program/data/mod.STD.NoAngle.addTemp.rda
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS files
+.DS_Store
+Thumbs.db
