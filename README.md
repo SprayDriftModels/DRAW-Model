@@ -47,19 +47,19 @@ shiny::runApp()
 ## Project Structure
 
 ```
-â”œâ”€â”€ app.R                  # Shiny app (UI + server)
-â”œâ”€â”€ functions.R            # Domain logic: models, predictions, plots
-â”œâ”€â”€ report.Rmd             # Downloadable HTML report template
-â””â”€â”€ program/
-    â”œâ”€â”€ Documentation.html # About DRAW (rendered HTML)
-    â”œâ”€â”€ Documentation.md   # About DRAW (source)
-    â”œâ”€â”€ Manual.md          # User manual
-    â””â”€â”€ data/
-        â”œâ”€â”€ fit.STD.NoAngle.addTemp.rda  # brms model (~460 MB, via Release)
-        â”œâ”€â”€ mod.STD.NoAngle.addTemp.rda  # lme4 model (~8 MB, via Release)
-        â”œâ”€â”€ rautmann.rda                 # Rautmann reference curves
-        â”œâ”€â”€ comparedat.rda               # Pre-computed comparison trial data
-        â””â”€â”€ ComparisonCases.csv          # Comparison trial metadata
+├── app.R                  # Shiny app (UI + server)
+├── functions.R            # Domain logic: models, predictions, plots
+├── report.Rmd             # Downloadable HTML report template
+└── program/
+    ├── Documentation.html # About DRAW (rendered HTML)
+    ├── Documentation.md   # About DRAW (source)
+    ├── Manual.md          # User manual
+    └── data/
+        ├── fit.STD.NoAngle.addTemp.rda  # brms model (~460 MB, via Release)
+        ├── mod.STD.NoAngle.addTemp.rda  # lme4 model (~8 MB, via Release)
+        ├── rautmann.rda                 # Rautmann reference curves
+        ├── comparedat.rda               # Pre-computed comparison trial data
+        └── ComparisonCases.csv          # Comparison trial metadata
 ```
 
 ## Background
