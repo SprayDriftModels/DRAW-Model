@@ -2,7 +2,7 @@
 
 A Shiny app for **spray drift prediction** in agricultural risk assessment, using Bayesian multilevel regression models fitted with [brms](https://paul-buerkner.github.io/brms/). A deliverable of the [SETAC DRAW workshop](https://www.spraydriftmitigation.info/).
 
-The app predicts spray drift deposition at various downwind distances under user-specified environmental conditions and application settings, and compares predictions against [Rautmann reference curves](https://doi.org/10.1007/978-3-662-04653-1_18).
+The app predicts spray drift deposition at various downwind distances under user-specified environmental conditions and application settings, and compares predictions against [Rautmann reference curves](https://www.researchgate.net/publication/287671349_Drift_drift_reducing_sprayers_and_sprayer_testing).
 
 ## Features
 
@@ -75,6 +75,12 @@ For details, see the **About DRAW** tab in the app or the [SETAC DRAW website](h
 This project is licensed under the **GNU General Public License v3.0** (GPL-3) — see [LICENSE](LICENSE) for details.
 
 The fitted model objects are derived from the SETAC DRAW database, which is subject to its own data sharing agreement. See the [SETAC DRAW website](https://www.spraydriftmitigation.info/) for details.
+
+## References
+
+- Ganzelmeier, H. and Rautmann, D. (2000). Drift, drift reducing sprayers and sprayer testing. *Aspects of Applied Biology* 57, Pesticide Application. [(ResearchGate)](https://www.researchgate.net/publication/287671349_Drift_drift_reducing_sprayers_and_sprayer_testing)
+- Rautmann, D., Streloke, M. and Winkler, R. (2001). New basic drift values in the authorization procedure for plant protection products. *Mitt. Biol. Bundesanst. Land- Forstwirtsch.* 383, 133–141.
+- JKI (2010). Spreadsheet 'Tabelle der Abdrifteckwerte.xls'. (no longer available).
 
 ## Citation
 
